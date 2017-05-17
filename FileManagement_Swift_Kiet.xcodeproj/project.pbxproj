@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E4763411ECC79450007EB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4763401ECC79450007EB58 /* AppDelegate.swift */; };
+		2E4763431ECC79450007EB58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4763421ECC79450007EB58 /* ViewController.swift */; };
+		2E4763461ECC79450007EB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4763441ECC79450007EB58 /* Main.storyboard */; };
+		2E4763481ECC79450007EB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4763471ECC79450007EB58 /* Assets.xcassets */; };
+		2E47634B1ECC79450007EB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4763491ECC79450007EB58 /* LaunchScreen.storyboard */; };
+		2E4763561ECC79460007EB58 /* FileManagement_Swift_KietTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4763551ECC79460007EB58 /* FileManagement_Swift_KietTests.swift */; };
+		2E4763611ECC79460007EB58 /* FileManagement_Swift_KietUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4763601ECC79460007EB58 /* FileManagement_Swift_KietUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E4763521ECC79460007EB58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E4763351ECC79450007EB58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E47633C1ECC79450007EB58;
+			remoteInfo = FileManagement_Swift_Kiet;
+		};
+		2E47635D1ECC79460007EB58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E4763351ECC79450007EB58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E47633C1ECC79450007EB58;
+			remoteInfo = FileManagement_Swift_Kiet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E47633D1ECC79450007EB58 /* FileManagement_Swift_Kiet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileManagement_Swift_Kiet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4763401ECC79450007EB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E4763421ECC79450007EB58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E4763451ECC79450007EB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E4763471ECC79450007EB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E47634A1ECC79450007EB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E47634C1ECC79450007EB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4763511ECC79460007EB58 /* FileManagement_Swift_KietTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileManagement_Swift_KietTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4763551ECC79460007EB58 /* FileManagement_Swift_KietTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagement_Swift_KietTests.swift; sourceTree = "<group>"; };
+		2E4763571ECC79460007EB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E47635C1ECC79460007EB58 /* FileManagement_Swift_KietUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileManagement_Swift_KietUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4763601ECC79460007EB58 /* FileManagement_Swift_KietUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagement_Swift_KietUITests.swift; sourceTree = "<group>"; };
+		2E4763621ECC79460007EB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E47633A1ECC79450007EB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E47634E1ECC79460007EB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4763591ECC79460007EB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E4763341ECC79450007EB58 = {
+			isa = PBXGroup;
+			children = (
+				2E47633F1ECC79450007EB58 /* FileManagement_Swift_Kiet */,
+				2E4763541ECC79460007EB58 /* FileManagement_Swift_KietTests */,
+				2E47635F1ECC79460007EB58 /* FileManagement_Swift_KietUITests */,
+				2E47633E1ECC79450007EB58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E47633E1ECC79450007EB58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E47633D1ECC79450007EB58 /* FileManagement_Swift_Kiet.app */,
+				2E4763511ECC79460007EB58 /* FileManagement_Swift_KietTests.xctest */,
+				2E47635C1ECC79460007EB58 /* FileManagement_Swift_KietUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E47633F1ECC79450007EB58 /* FileManagement_Swift_Kiet */ = {
+			isa = PBXGroup;
+			children = (
+				2E4763401ECC79450007EB58 /* AppDelegate.swift */,
+				2E4763421ECC79450007EB58 /* ViewController.swift */,
+				2E4763441ECC79450007EB58 /* Main.storyboard */,
+				2E4763471ECC79450007EB58 /* Assets.xcassets */,
+				2E4763491ECC79450007EB58 /* LaunchScreen.storyboard */,
+				2E47634C1ECC79450007EB58 /* Info.plist */,
+			);
+			path = FileManagement_Swift_Kiet;
+			sourceTree = "<group>";
+		};
+		2E4763541ECC79460007EB58 /* FileManagement_Swift_KietTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E4763551ECC79460007EB58 /* FileManagement_Swift_KietTests.swift */,
+				2E4763571ECC79460007EB58 /* Info.plist */,
+			);
+			path = FileManagement_Swift_KietTests;
+			sourceTree = "<group>";
+		};
+		2E47635F1ECC79460007EB58 /* FileManagement_Swift_KietUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E4763601ECC79460007EB58 /* FileManagement_Swift_KietUITests.swift */,
+				2E4763621ECC79460007EB58 /* Info.plist */,
+			);
+			path = FileManagement_Swift_KietUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E47633C1ECC79450007EB58 /* FileManagement_Swift_Kiet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4763651ECC79460007EB58 /* Build configuration list for PBXNativeTarget "FileManagement_Swift_Kiet" */;
+			buildPhases = (
+				2E4763391ECC79450007EB58 /* Sources */,
+				2E47633A1ECC79450007EB58 /* Frameworks */,
+				2E47633B1ECC79450007EB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileManagement_Swift_Kiet;
+			productName = FileManagement_Swift_Kiet;
+			productReference = 2E47633D1ECC79450007EB58 /* FileManagement_Swift_Kiet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E4763501ECC79460007EB58 /* FileManagement_Swift_KietTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4763681ECC79460007EB58 /* Build configuration list for PBXNativeTarget "FileManagement_Swift_KietTests" */;
+			buildPhases = (
+				2E47634D1ECC79460007EB58 /* Sources */,
+				2E47634E1ECC79460007EB58 /* Frameworks */,
+				2E47634F1ECC79460007EB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E4763531ECC79460007EB58 /* PBXTargetDependency */,
+			);
+			name = FileManagement_Swift_KietTests;
+			productName = FileManagement_Swift_KietTests;
+			productReference = 2E4763511ECC79460007EB58 /* FileManagement_Swift_KietTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E47635B1ECC79460007EB58 /* FileManagement_Swift_KietUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E47636B1ECC79460007EB58 /* Build configuration list for PBXNativeTarget "FileManagement_Swift_KietUITests" */;
+			buildPhases = (
+				2E4763581ECC79460007EB58 /* Sources */,
+				2E4763591ECC79460007EB58 /* Frameworks */,
+				2E47635A1ECC79460007EB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E47635E1ECC79460007EB58 /* PBXTargetDependency */,
+			);
+			name = FileManagement_Swift_KietUITests;
+			productName = FileManagement_Swift_KietUITests;
+			productReference = 2E47635C1ECC79460007EB58 /* FileManagement_Swift_KietUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E4763351ECC79450007EB58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kiet Nguyen";
+				TargetAttributes = {
+					2E47633C1ECC79450007EB58 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					2E4763501ECC79460007EB58 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E47633C1ECC79450007EB58;
+					};
+					2E47635B1ECC79460007EB58 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E47633C1ECC79450007EB58;
+					};
+				};
+			};
+			buildConfigurationList = 2E4763381ECC79450007EB58 /* Build configuration list for PBXProject "FileManagement_Swift_Kiet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E4763341ECC79450007EB58;
+			productRefGroup = 2E47633E1ECC79450007EB58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E47633C1ECC79450007EB58 /* FileManagement_Swift_Kiet */,
+				2E4763501ECC79460007EB58 /* FileManagement_Swift_KietTests */,
+				2E47635B1ECC79460007EB58 /* FileManagement_Swift_KietUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E47633B1ECC79450007EB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E47634B1ECC79450007EB58 /* LaunchScreen.storyboard in Resources */,
+				2E4763481ECC79450007EB58 /* Assets.xcassets in Resources */,
+				2E4763461ECC79450007EB58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E47634F1ECC79460007EB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E47635A1ECC79460007EB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E4763391ECC79450007EB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4763431ECC79450007EB58 /* ViewController.swift in Sources */,
+				2E4763411ECC79450007EB58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E47634D1ECC79460007EB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4763561ECC79460007EB58 /* FileManagement_Swift_KietTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4763581ECC79460007EB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4763611ECC79460007EB58 /* FileManagement_Swift_KietUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E4763531ECC79460007EB58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E47633C1ECC79450007EB58 /* FileManagement_Swift_Kiet */;
+			targetProxy = 2E4763521ECC79460007EB58 /* PBXContainerItemProxy */;
+		};
+		2E47635E1ECC79460007EB58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E47633C1ECC79450007EB58 /* FileManagement_Swift_Kiet */;
+			targetProxy = 2E47635D1ECC79460007EB58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E4763441ECC79450007EB58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E4763451ECC79450007EB58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E4763491ECC79450007EB58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E47634A1ECC79450007EB58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E4763631ECC79460007EB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E4763641ECC79460007EB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E4763661ECC79460007EB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FileManagement_Swift_Kiet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Group-9---iOSUTE.FileManagement-Swift-Kiet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2E4763671ECC79460007EB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FileManagement_Swift_Kiet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Group-9---iOSUTE.FileManagement-Swift-Kiet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2E4763691ECC79460007EB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FileManagement_Swift_KietTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Group-9---iOSUTE.FileManagement-Swift-KietTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileManagement_Swift_Kiet.app/FileManagement_Swift_Kiet";
+			};
+			name = Debug;
+		};
+		2E47636A1ECC79460007EB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FileManagement_Swift_KietTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Group-9---iOSUTE.FileManagement-Swift-KietTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileManagement_Swift_Kiet.app/FileManagement_Swift_Kiet";
+			};
+			name = Release;
+		};
+		2E47636C1ECC79460007EB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FileManagement_Swift_KietUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Group-9---iOSUTE.FileManagement-Swift-KietUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FileManagement_Swift_Kiet;
+			};
+			name = Debug;
+		};
+		2E47636D1ECC79460007EB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FileManagement_Swift_KietUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Group-9---iOSUTE.FileManagement-Swift-KietUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FileManagement_Swift_Kiet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E4763381ECC79450007EB58 /* Build configuration list for PBXProject "FileManagement_Swift_Kiet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4763631ECC79460007EB58 /* Debug */,
+				2E4763641ECC79460007EB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E4763651ECC79460007EB58 /* Build configuration list for PBXNativeTarget "FileManagement_Swift_Kiet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4763661ECC79460007EB58 /* Debug */,
+				2E4763671ECC79460007EB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E4763681ECC79460007EB58 /* Build configuration list for PBXNativeTarget "FileManagement_Swift_KietTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4763691ECC79460007EB58 /* Debug */,
+				2E47636A1ECC79460007EB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E47636B1ECC79460007EB58 /* Build configuration list for PBXNativeTarget "FileManagement_Swift_KietUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E47636C1ECC79460007EB58 /* Debug */,
+				2E47636D1ECC79460007EB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E4763351ECC79450007EB58 /* Project object */;
+}
